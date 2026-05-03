@@ -7,16 +7,9 @@ export default function Home() {
   return (
     <AppLayout>
       <Hero />
+      <div id="email-form" className="mt-12 max-w-3xl mx-auto scroll-mt-24">
       <EmailForm />
-      {/* TEMP SAMPLE OUTPUT (for UI testing) */}
-      <GeneratedEmail
-        email={`Dear Hiring Manager,
-
-      I hope this message finds you well. I am writing to express my interest...
-
-      Best regards,
-      Your Name`}
-      />
+      </div>
     </AppLayout>
   );
 }
