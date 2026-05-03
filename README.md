@@ -1,48 +1,48 @@
 # ✨ MailMind AI — AI Email Generator SaaS
 
-MailMind AI is a modern AI-powered email generation platform built with **Next.js 16**, **TypeScript**, **Tailwind CSS**, and **Groq AI**.
+MailMind AI is a modern AI powered email generation platform built with **Next.js 16**, **TypeScript**, **Tailwind CSS**, and **Groq AI**.
 
 Generate professional emails instantly for:
 
 * Job applications
 * Client communication
-* Follow-ups
+* Follow ups
 * Business proposals
 * Professional networking
 
-Designed with a clean and premium SaaS-style UI inspired by modern AI products like ChatGPT and Notion AI.
+Designed with a clean and premium SaaS style UI inspired by modern AI products like ChatGPT and Notion AI.
 
----
+   
 
 # 🚀 Live Demo
 
-🔗 https://ai-email-agent-blue.vercel.app/
+🔗 https://ai email agent blue.vercel.app/
 
----
+   
 
 # 📸 Preview
 
 Add screenshots or GIFs of your project here.
 
----
+   
 
 # ✨ Features
 
-## 🤖 AI-Powered Email Generation
+## 🤖 AI Powered Email Generation
 
-Generate high-quality professional emails instantly using Groq AI.
+Generate high quality professional emails instantly using Groq AI.
 
 ## 🎨 Premium SaaS UI
 
 Modern glassmorphism inspired interface with clean layouts and smooth UX.
 
-## ⚡ Real-Time Generation
+## ⚡ Real Time Generation
 
 Generate emails dynamically through API integration.
 
 ## 📋 Copy to Clipboard
 
-One-click copy functionality for generated emails.
+One click copy functionality for generated emails.
 
 ## 🔄 Regenerate Emails
 
@@ -62,7 +62,7 @@ Customize:
 * Purpose
 * Recipient
 
----
+   
 
 # 🛠️ Tech Stack
 
@@ -85,14 +85,14 @@ Customize:
 
 * Vercel
 
----
+   
 
 # 📂 Project Structure
 
 ```bash
 app/
 ├── api/
-│   └── generate-email/
+│   └── generate email/
 │       └── route.ts
 ├── globals.css
 ├── layout.tsx
@@ -117,25 +117,25 @@ hooks/
 types/
 ```
 
----
+   
 
 # ⚙️ Installation & Setup
 
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/codingwithriha/ai-email-agent.git
+git clone https://github.com/codingwithriha/ai email agent.git
 ```
 
----
+   
 
 ## 2️⃣ Navigate to Project
 
 ```bash
-cd ai-email-agent
+cd ai email agent
 ```
 
----
+   
 
 ## 3️⃣ Install Dependencies
 
@@ -143,7 +143,7 @@ cd ai-email-agent
 npm install
 ```
 
----
+   
 
 ## 4️⃣ Setup Environment Variables
 
@@ -153,7 +153,7 @@ Create a `.env.local` file:
 GROQ_API_KEY=your_groq_api_key
 ```
 
----
+   
 
 ## 5️⃣ Run Development Server
 
@@ -167,7 +167,7 @@ Open:
 http://localhost:3000
 ```
 
----
+   
 
 # 🧠 How It Works
 
@@ -177,7 +177,7 @@ http://localhost:3000
 4. AI generates professional email
 5. Response is displayed in the premium output UI
 
----
+   
 
 # 🔥 Future Improvements
 
@@ -190,7 +190,7 @@ http://localhost:3000
 * Multi language support
 * Rich text editor
 
----
+   
 
 # 🌟 What I Learned
 
@@ -205,25 +205,25 @@ While building this project, I learned:
 * Client vs Server Components in Next.js
 * Deployment with Vercel
 
----
+   
 
 # 🤝 Connect With Me
 
 ### 👩‍💻 Riha Shehzadi
 
 * GitHub: [https://github.com/codingwithriha](https://github.com/codingwithriha)
-* LinkedIn: https://www.linkedin.com/in/riha-shahzadi/
+* LinkedIn: https://www.linkedin.com/in/riha shahzadi/
 * Frontend Mentor: https://www.frontendmentor.io/profile/codingwithriha
 * LeetCode: https://leetcode.com/u/RihaShehzadi/
 
----
+   
 
 # ⭐ Support
 
 If you like this project, consider giving it a ⭐ on GitHub.
 
----
+   
 
 # 📄 License
 
-This project is open-source and available under the MIT
+This project is open source and available under the MIT
