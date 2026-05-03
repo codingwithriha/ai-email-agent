@@ -1,4 +1,13 @@
+"use client";
+
 const Hero = () => {
+
+  const scrollToEmail = () => {
+    document.getElementById("email-form")?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
   return (
     <section className="relative text-center py-28">
 
@@ -19,13 +28,21 @@ const Hero = () => {
         </p>
 
         <div className="mt-10 flex justify-center gap-4">
-          <button className="bg-white text-black px-6 py-3 rounded-xl font-medium hover:scale-105 transition">
+
+          <button
+            onClick={scrollToEmail}
+            className="bg-white text-black px-6 py-3 rounded-xl font-medium hover:scale-105 transition"
+          >
             Start Writing
           </button>
 
-          <button className="border border-white/20 px-6 py-3 rounded-xl hover:bg-white/10 transition">
+          <button
+            onClick={scrollToEmail}
+            className="border border-white/20 px-6 py-3 rounded-xl hover:bg-white/10 transition"
+          >
             View Demo
           </button>
+
         </div>
 
       </div>
