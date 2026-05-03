@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import GeneratedEmail from "./GeneratedEmail";
 
 export default function EmailForm() {
   const [recipient, setRecipient] = useState("");
@@ -9,7 +10,7 @@ export default function EmailForm() {
   const [type, setType] = useState("Job Email");
   const [length, setLength] = useState("Medium");
   const [loading, setLoading] = useState(false);
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState<null | string>(null);
 
   const generateEmail = async () => {
     setLoading(true);
@@ -30,7 +31,7 @@ export default function EmailForm() {
     });
 
     const data = await res.json();
-    setEmail(data.email);
+    setEmail(data?.email || "");
     setLoading(false);
   };
 
@@ -132,10 +133,11 @@ export default function EmailForm() {
 
       {/* OUTPUT */}
       {email && (
-        <div className="mt-6 bg-black/40 border border-white/10 rounded-2xl p-5 whitespace-pre-line">
-          {email}
-        </div>
-      )}
+      <GeneratedEmail
+        email={email}
+        onRegenerate={generateEmail}
+/>
+)}
 
     </div>
   );
