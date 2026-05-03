@@ -22,7 +22,7 @@ Designed with a clean and premium SaaS style UI inspired by modern AI products l
 
 # 📸 Preview
 
-Add screenshots or GIFs of your project here.
+![Project Preview](./public/preview.png)
 
    
 
