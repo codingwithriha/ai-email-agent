@@ -1,4 +1,4 @@
-# ✨ MailMind AI — AI Email Generator SaaS
+# ✨ MailMind AI(AI Email Generator SaaS)
 
 MailMind AI is a modern AI powered email generation platform built with **Next.js 16**, **TypeScript**, **Tailwind CSS**, and **Groq AI**.
 
@@ -16,7 +16,7 @@ Designed with a clean and premium SaaS style UI inspired by modern AI products l
 
 # 🚀 Live Demo
 
-🔗 https://ai email agent blue.vercel.app/
+🔗 https://ai-email-agent-blue.vercel.app/
 
    
 
@@ -92,7 +92,7 @@ Customize:
 ```bash
 app/
 ├── api/
-│   └── generate email/
+│   └── generate-email/
 │       └── route.ts
 ├── globals.css
 ├── layout.tsx
@@ -124,7 +124,7 @@ types/
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/codingwithriha/ai email agent.git
+git clone https://github.com/codingwithriha/ai-email-agent.git
 ```
 
    
@@ -132,7 +132,7 @@ git clone https://github.com/codingwithriha/ai email agent.git
 ## 2️⃣ Navigate to Project
 
 ```bash
-cd ai email agent
+cd ai-email-agent
 ```
 
    
@@ -212,7 +212,7 @@ While building this project, I learned:
 ### 👩‍💻 Riha Shehzadi
 
 * GitHub: [https://github.com/codingwithriha](https://github.com/codingwithriha)
-* LinkedIn: https://www.linkedin.com/in/riha shahzadi/
+* LinkedIn: https://www.linkedin.com/in/riha-shahzadi/
 * Frontend Mentor: https://www.frontendmentor.io/profile/codingwithriha
 * LeetCode: https://leetcode.com/u/RihaShehzadi/
 
