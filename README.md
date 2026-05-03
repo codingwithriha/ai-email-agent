@@ -16,7 +16,7 @@ Designed with a clean and premium SaaS-style UI inspired by modern AI products l
 
 # 🚀 Live Demo
 
-🔗 Add Your Deployed Link Here
+🔗 https://ai-email-agent-blue.vercel.app/
 
 ---
 
@@ -34,7 +34,7 @@ Generate high-quality professional emails instantly using Groq AI.
 
 ## 🎨 Premium SaaS UI
 
-Modern glassmorphism-inspired interface with clean layouts and smooth UX.
+Modern glassmorphism inspired interface with clean layouts and smooth UX.
 
 ## ⚡ Real-Time Generation
 
@@ -187,7 +187,7 @@ http://localhost:3000
 * Export as PDF
 * AI templates library
 * Dark/Light theme toggle
-* Multi-language support
+* Multi language support
 * Rich text editor
 
 ---
@@ -201,7 +201,7 @@ While building this project, I learned:
 * AI integration using Groq API
 * Environment variable management
 * SaaS UI/UX design principles
-* Component-based architecture
+* Component based architecture
 * Client vs Server Components in Next.js
 * Deployment with Vercel
 
@@ -212,9 +212,9 @@ While building this project, I learned:
 ### 👩‍💻 Riha Shehzadi
 
 * GitHub: [https://github.com/codingwithriha](https://github.com/codingwithriha)
-* LinkedIn: Add Your LinkedIn
-* Frontend Mentor: Add Your Frontend Mentor
-* LeetCode: Add Your LeetCode
+* LinkedIn: https://www.linkedin.com/in/riha-shahzadi/
+* Frontend Mentor: https://www.frontendmentor.io/profile/codingwithriha
+* LeetCode: https://leetcode.com/u/RihaShehzadi/
 
 ---
 
